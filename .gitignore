@@ -7,3 +7,5 @@ cdk.out
 # Parcel build directories
 .cache
 .build
+.idea
+.DS_Store

@@ -2,6 +2,8 @@
   "app": "node bin/stack-clave.js",
   "context": {
     "@aws-cdk/core:enableStackNameDuplicates": "true",
-    "aws-cdk:enableDiffNoFail": "true"
+    "aws-cdk:enableDiffNoFail": "true",
+    "project_name": "stack_clave",
+    "env": "dev"
   }
 }

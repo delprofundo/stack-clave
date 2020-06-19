@@ -11,10 +11,13 @@
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.45.0",
+    "@aws-cdk/aws-s3": "^1.45.0",
     "aws-cdk": "1.45.0",
     "jest": "^25.5.0"
   },
   "dependencies": {
+    "@aws-cdk/aws-certificatemanager": "^1.45.0",
+    "@aws-cdk/aws-route53": "^1.45.0",
     "@aws-cdk/core": "1.45.0"
   }
 }
