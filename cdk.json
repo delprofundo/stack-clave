@@ -3,7 +3,7 @@
   "context": {
     "@aws-cdk/core:enableStackNameDuplicates": "true",
     "aws-cdk:enableDiffNoFail": "true",
-    "project_name": "stack_clave",
+    "project_name": "stack-clave",
     "env": "dev"
   }
 }
