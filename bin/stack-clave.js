@@ -4,6 +4,8 @@ const cdk = require('@aws-cdk/core');
 const { Dns_Stack } = require( '../lib/dns_stack' )
 const { CertificateStack } = require( '../lib/cert-stack' )
 const { BlobStack } = require( '../lib/s3.stack' )
+const { QueueStack } = require( '../lib/queue.stack' )
+
 
 const app = new cdk.App();
 
@@ -16,4 +18,5 @@ const dns_stack = new Dns_Stack( app, 'dns-stack', STACK_DOMAIN, {
   }
 })
 const blob_stack = new BlobStack( app, 'blob-stack', )
+const queue_stack = new QueueStack( app, 'queue-stack' )
 // const cert_stack = new CertificateStack( app, 'cert-stack', STACK_DOMAIN )
