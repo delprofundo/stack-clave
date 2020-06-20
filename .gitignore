@@ -3,9 +3,10 @@ node_modules
 # CDK asset staging directory
 .cdk.staging
 cdk.out
-
+.env
 # Parcel build directories
 .cache
 .build
 .idea
 .DS_Store
+cdk.context.json
